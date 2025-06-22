@@ -1,0 +1,10 @@
+<suite name="AutomationSuite">
+    <listeners>
+        <listener class-name="utilsclasses.ListnerUtility"/>
+    </listeners>
+    <test name="RegressionTests">
+        <classes>
+            <class name="testclasses.LocatorsDemoTest"/>
+        </classes>
+    </test>
+</suite>

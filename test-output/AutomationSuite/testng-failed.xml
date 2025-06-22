@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <listeners>
+    <listener class-name="utilsclasses.ListernerUtility"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTests(failed)">
+    <classes>
+      <class name="testclasses.AssertionDemoTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="softAssertionDemoTest"/>
+          <include name="assertNotNullDemoTest"/>
+          <include name="assertNotEqualDemoTest"/>
+          <include name="assertFalseDemoTest"/>
+          <include name="assertEqualToDemoTest"/>
+          <include name="Opeeration"/>
+        </methods>
+      </class> <!-- testclasses.AssertionDemoTest -->
+    </classes>
+  </test> <!-- RegressionTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
