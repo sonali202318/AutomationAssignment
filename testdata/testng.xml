@@ -1,6 +1,6 @@
 <suite name="AutomationSuite">
     <listeners>
-        <listener class-name="utilsclasses.ListnerUtility"/>
+        <listener class-name="utilsclasses.ListenerUtility"/>
     </listeners>
     <test name="RegressionTests">
         <classes>
